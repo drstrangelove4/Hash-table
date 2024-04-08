@@ -1,7 +1,8 @@
 My first hash table. It's rough. Taking user input is a pain point and it could do with a refactor but after 3 days and about 30 hours of work put into it, it finally works.
 
 Need to add the ability to edit nodes but I've lost all motivation to do so. I really should fix the uninitalized/unused values in the root structs.
-Probably easier to make a root struct and place them instead of using one struct for everything in the hash table.
+Probably easier to make a root struct and place them instead of using one struct for everything in the hash table. I also need to add some functionality to make adding more nodes 
+easier but it's just a demo at this point.
 
 This is my second attempt. My first version couldn't free memory correctly due to the root elements being hard coded into the system and some pointer wizardry I couldn't figure out. 
 I tried to use malloc to take string inputs from the user but I couldn't figure out how to free them so I resulted to copying the contents of the user input into the struct 
